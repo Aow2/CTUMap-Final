@@ -9,24 +9,36 @@
 * ***Thông tin địa điểm***: Xem hình ảnh và mô tả chi tiết của từng tòa nhà khi chọn trên bản đồ.
 * ***Định vị GPS***: Xác định vị trí hiện tại của người dùng trong khuôn viên trường.
 ### Indoor:
-* ***Virtual Tour 360°***: Trải nghiệm không gian bên trong tòa nhà bằng ảnh panorama 360°.
-* ***Tìm đường thông minh***: Tính toán tuyến đường ngắn nhất giữa các phòng bằng thuật toán BFS.
-* ***Hotspot Navigation***: Điều hướng giữa các panorama thông qua hệ thống hotspot liên kết.
-* ***Sơ đồ tầng tương tác***: Hiển thị vị trí, điểm đến và lộ trình ngay trên sơ đồ tầng.
-* ***Hướng dẫn trực quan***: Kết hợp Virtual Tour và sơ đồ tầng để hỗ trợ người dùng di chuyển dễ dàng.
-* ***Tích hợp với bản đồ ngoài trời***: Chuyển tiếp từ điều hướng ngoài trời đến trong nhà một cách liền mạch
+* **Virtual Tour 360°**: Trải nghiệm không gian bên trong tòa nhà bằng ảnh panorama 360°.
+* **Tìm đường thông minh**: Tính toán tuyến đường ngắn nhất giữa các phòng bằng thuật toán BFS.
+* **Hotspot Navigation**: Điều hướng giữa các panorama thông qua hệ thống hotspot liên kết.
+* **Sơ đồ tầng tương tác**: Hiển thị vị trí, điểm đến và lộ trình ngay trên sơ đồ tầng.
+* **Hướng dẫn trực quan**: Kết hợp Virtual Tour và sơ đồ tầng để hỗ trợ người dùng di chuyển dễ dàng.
+* **Tích hợp với bản đồ ngoài trời**: Chuyển tiếp từ điều hướng ngoài trời đến trong nhà một cách liền mạch
 
 ## Công nghệ sử dụng
-* **Ngôn ngữ**: Kotlin
-* **UI Framework**: Jetpack Compose
-* **Map SDK**: Mapbox Maps SDK
-* **Indoor Navigation**: Pannellum + Leaflet.js
-* **Database**: Firebase Realtime Database
-* **Media Hosting**: Cloudinary
-* **Location Services**: Fused Location Provider (GPS)
-* **Kiến trúc**: MVVM
-* **Concurrency**: Kotlin Coroutines & StateFlow
-* **Thuật toán**: Mapbox Directions API, BFS
+### Android
+- **Ngôn ngữ**: Kotlin
+- **UI Framework**: Jetpack Compose
+- **Kiến trúc**: MVVM (Model–View–ViewModel)
+- **Bất đồng bộ**: Kotlin Coroutines & StateFlow
+- **Định vị**: Fused Location Provider (GPS)
+
+### Outdoor Navigation
+- **Map SDK**: Mapbox Maps SDK for Android
+- **Routing**: Mapbox Directions API
+- **Nguồn dữ liệu bản đồ**: OpenStreetMap (OSM)
+
+### Indoor Navigation
+- **Web Integration**: Android WebView
+- **Web Technologies**: HTML5, CSS3, JavaScript
+- **Panorama Viewer**: Pannellum
+- **Indoor Map**: Leaflet.js
+- **Pathfinding Algorithm**: Breadth-First Search (BFS)
+
+### Backend & Cloud
+- **Database**: Firebase Realtime Database
+- **Image Hosting**: Cloudinary
 
 ## Hướng dẫn cài đặt
 
