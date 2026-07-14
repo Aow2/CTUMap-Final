@@ -2,13 +2,13 @@
 Ứng dụng bản đồ dành cho sinh viên và cán bộ tại Đại học Cần Thơ (CTU), giúp tìm kiếm các tòa nhà, khoa, và chỉ dẫn đường đi một cách nhanh chóng và chính xác (Outdoor). Bên cạnh đó, ứng dụng được phát triển tính năng định vị bên trong tòa nhà kết hợp trải nghiệm UI 360 Virtual Tour thay vì chỉ là navigate đơn thuần (Indoor).
 
 ## Tính năng nổi bật
-* **Outdoor**:
+### Oudoor: 
 * ***Bản đồ trực quan***: Hiển thị chi tiết khuôn viên khu II - Đại học Cần Thơ.
 * ***Tìm kiếm thông minh***: Tìm nhanh các địa điểm như Hội trường rùa, Nhà học B1, Khoa CNTT&TT...
 * ***Chỉ đường nội khu***: Tính toán và hiển thị đường đi ngắn nhất giữa các vị trí.
 * ***Thông tin địa điểm***: Xem hình ảnh và mô tả chi tiết của từng tòa nhà khi chọn trên bản đồ.
 * ***Định vị GPS***: Xác định vị trí hiện tại của người dùng trong khuôn viên trường.
-* **Indoor**:
+### Indoor:
 * ***Virtual Tour 360°***: Trải nghiệm không gian bên trong tòa nhà bằng ảnh panorama 360°.
 * ***Tìm đường thông minh***: Tính toán tuyến đường ngắn nhất giữa các phòng bằng thuật toán BFS.
 * ***Hotspot Navigation***: Điều hướng giữa các panorama thông qua hệ thống hotspot liên kết.
