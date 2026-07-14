@@ -3,11 +3,11 @@
 
 ## Tính năng nổi bật
 ### Oudoor: 
-* ***Bản đồ trực quan***: Hiển thị chi tiết khuôn viên khu II - Đại học Cần Thơ.
-* ***Tìm kiếm thông minh***: Tìm nhanh các địa điểm như Hội trường rùa, Nhà học B1, Khoa CNTT&TT...
-* ***Chỉ đường nội khu***: Tính toán và hiển thị đường đi ngắn nhất giữa các vị trí.
-* ***Thông tin địa điểm***: Xem hình ảnh và mô tả chi tiết của từng tòa nhà khi chọn trên bản đồ.
-* ***Định vị GPS***: Xác định vị trí hiện tại của người dùng trong khuôn viên trường.
+* **Bản đồ trực quan**: Hiển thị chi tiết khuôn viên khu II - Đại học Cần Thơ.
+* **Tìm kiếm thông minh**: Tìm nhanh các địa điểm như Hội trường rùa, Nhà học B1, Khoa CNTT&TT...
+* **Chỉ đường nội khu**: Tính toán và hiển thị đường đi ngắn nhất giữa các vị trí.
+* **Thông tin địa điểm**: Xem hình ảnh và mô tả chi tiết của từng tòa nhà khi chọn trên bản đồ.
+* **Định vị GPS**: Xác định vị trí hiện tại của người dùng trong khuôn viên trường.
 ### Indoor:
 * **Virtual Tour 360°**: Trải nghiệm không gian bên trong tòa nhà bằng ảnh panorama 360°.
 * **Tìm đường thông minh**: Tính toán tuyến đường ngắn nhất giữa các phòng bằng thuật toán BFS.
